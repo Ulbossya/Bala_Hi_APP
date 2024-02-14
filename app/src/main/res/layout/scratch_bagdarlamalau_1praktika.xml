@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="412dp"
+        android:layout_height="903dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_3"
+        app:flow_firstVerticalBias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:text="Сөйлемді толықтыр. (Дәптерге орындайық) \n
+        Scratch – бұл бағдарламалау бастамасының өте жақсы әдісі.
+        Бұл бағдарлама...........жылы ..........технологиялық институтында
+        .............басқаратын зертханада жасалған. Scratch программалау
+        ортасының негізі............есімімен байланысты және 70-ші жылдардан
+        басталған Smalltalk объектілік программалау тілін кросс-платформалық
+        енгізу болып табылады.
+ Scratch бағдарламалау ортасының атауы ерекше, осы бағдарламаның эмблемасы –
+ кішкентай Scratch (орысша-царапка, қазақша- тырнауыш) деп аталатын..........баласы.
+ Бағдарлама оны басып, жазып шығарудың орнына кодтың блоктарын біріктіру жолымен жасалады.
+ Scratchті қолдану оңай және жеңіл, сонымен қатар басқа бағдарламалау тілдерінің
+ қолданысқа қажетті негізгі идеяларын сізге үйретеді. Бұл көпплатформалы өнім,
+ яғни оны.........,...........және тағы басқа да операциялық жүйелерде орната
+ беруге болады. Массачусет технологиялық институтының «Lifelong Kindergarten Group»
+ зерттеушілер командасы Scratch программалау ортасын Лего конструкторы мен Лого
+ тілі идеясының жалғасы ретінде............жылы құрған болатын.
+"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>

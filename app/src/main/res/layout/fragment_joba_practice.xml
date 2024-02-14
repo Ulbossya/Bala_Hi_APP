@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="381dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="                        Choose a subject"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/black"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/jarat_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Статистика" />
+
+        <ImageView
+            android:id="@+id/jarat_1_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr1_hm"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/jarat_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Статистиканың жалпы теориясы" />
+
+        <ImageView
+            android:id="@+id/jarat_2_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr2_hm"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/jarat_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Физика негіздері
+" />
+
+        <ImageView
+            android:id="@+id/jarat_3_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr3_hm"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/jarat_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Физиканы оқыту әдістемесі және мектептегі тәжірбелер техникасы" />
+
+        <ImageView
+            android:id="@+id/jarat_4_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr4_hm"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/jarat_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Химия
+" />
+
+        <ImageView
+            android:id="@+id/jarat_5_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr5_hm"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/jarat_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Ықтималдық теориясы мен математикалық статистика" />
+
+        <ImageView
+            android:id="@+id/jarat_6_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr6_hm"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/jarat_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Экономистерге арналған математика" />
+
+        <ImageView
+            android:id="@+id/jarat_7_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Электроника және электротехника" />
+
+        <ImageView
+            android:id="@+id/jarat_8_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Элементарлық математика" />
+
+        <ImageView
+            android:id="@+id/jarat_9_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="География" />
+
+        <ImageView
+            android:id="@+id/jarat_10_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Ағылшын тілінде математиканы оқыту әдістемесі" />
+
+        <ImageView
+            android:id="@+id/jarat_11_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Ағылшын тілінде физиканы оқыту" />
+
+        <ImageView
+            android:id="@+id/jarat_12_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Жалпы статистика теориясы" />
+
+        <ImageView
+            android:id="@+id/jarat_13_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Жоғары математика негіздері" />
+
+        <ImageView
+            android:id="@+id/jarat_14_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Алгебра және сандар теориясы" />
+
+        <ImageView
+            android:id="@+id/jarat_15_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Аналитикалық геометрия" />
+
+        <ImageView
+            android:id="@+id/jarat_16_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Анатомия, физиология, және мектеп гигиенасы" />
+
+        <ImageView
+            android:id="@+id/jarat_17_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Астрономия" />
+
+        <ImageView
+            android:id="@+id/jarat_18_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Атом және атом ядросының физикасы" />
+
+        <ImageView
+            android:id="@+id/jarat_19_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Биология" />
+
+        <ImageView
+            android:id="@+id/jarat_20_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Математика" />
+
+        <ImageView
+            android:id="@+id/jarat_21_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Математика тарихы және әдіснамасы" />
+
+        <ImageView
+            android:id="@+id/jarat_22_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Математикалық анализ" />
+
+        <ImageView
+            android:id="@+id/jarat_23_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Математикалық есеп шығару практикумы" />
+
+        <ImageView
+            android:id="@+id/jarat_24_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Математикалық логика" />
+
+        <ImageView
+            android:id="@+id/jarat_25_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Математикалық талдау" />
+
+        <ImageView
+            android:id="@+id/jarat_26_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Математикалық физика негіздері" />
+
+        <ImageView
+            android:id="@+id/jarat_27_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Мектеп математикасы курсы негіздері" />
+
+        <ImageView
+            android:id="@+id/jarat_28_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Физика негіздері" />
+
+        <ImageView
+            android:id="@+id/jarat_29_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/jarat_30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Физиканы оқыту әдістемесі және мектептегі тәжірибелер техникасы" />
+
+        <ImageView
+            android:id="@+id/jarat_30_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pr7_hm"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.techcup">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TechCup">
+        <activity
+            android:name=".splashscreen2"
+            android:exported="true"/>
+            <activity
+                android:name=".page_3"
+                android:exported="false" />
+            <activity
+                android:name=".qosymsha"
+                android:exported="false" />
+        <activity
+            android:name=".jeti_togyz_jas"
+            android:exported="false" />
+        <activity
+            android:name=".on_onbes_jas"
+            android:exported="false" />
+        <activity
+            android:name=".it_alemine_bastama"
+            android:exported="false" />
+        <activity
+            android:name=".tolygyraq_it"
+            android:exported="false" />
+
+            <activity
+                android:name=".MainActivity"
+                android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

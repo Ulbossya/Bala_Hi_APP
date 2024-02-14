@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/tapsirma1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тапсырма 1" />
+
+    <ImageView
+        android:id="@+id/iv_tapsirma1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        android:scaleType="centerInside"
+        android:src="@drawable/p1" />
+
+    <Button
+        android:id="@+id/tapsirma2"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тапсырма 2" />
+
+    <ImageView
+        android:id="@+id/iv_tapsirma2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        android:scaleType="centerInside"
+        android:src="@drawable/p2" />
+    <Button
+        android:id="@+id/tapsirma3"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тапсырма 3" />
+
+    <ImageView
+        android:id="@+id/iv_tapsirma3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        android:scaleType="centerInside"
+        android:src="@drawable/p3" />
+
+</LinearLayout>
